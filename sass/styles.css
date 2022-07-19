@@ -18,6 +18,8 @@ body {
   padding-top: 2.6rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 95vh;
 }
 .container .card {
   background-color: hsl(0deg, 0%, 100%);
@@ -95,11 +97,11 @@ body {
 @media screen and (min-width: 1440px) {
   .container {
     align-items: center;
-    height: 100vh;
+    height: 90vh;
   }
   .container .card {
     display: flex;
-    max-width: 60rem;
+    max-width: 65rem;
   }
   .container .card .hero {
     border-top-right-radius: unset;
@@ -110,9 +112,10 @@ body {
   }
   .container .card .desktop {
     display: unset;
+    max-width: 50%;
   }
   .container .card .card-wrapper {
-    padding: 0.5rem;
+    padding: 3.5rem;
     width: 90%;
   }
   .container .card .card-wrapper h2 {
